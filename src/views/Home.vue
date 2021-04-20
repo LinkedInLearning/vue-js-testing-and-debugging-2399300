@@ -34,7 +34,7 @@
                           <div class="form-group">
                             <input type="password" placeholder="Enter Password" class="form-control">
                           </div>
-                          <button type="button" class="btn btn-primary">
+                          <button type="button" class="btn btn-primary" @click="login()">
                             Login
                           </button>
                         </div>
@@ -61,6 +61,11 @@ export default {
   name: 'Home',
   components: {
     
+  },
+  methods : {
+    login(){
+      this.$router.push({path : "profile"})
+    }
   }
 }
 </script>
