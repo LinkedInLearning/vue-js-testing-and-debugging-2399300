@@ -3,3 +3,4 @@
 02-testing-arrays-and-objects-start
 02-testing-arrays-and-objects-end
 02-organizing-tests-start
+02-organizing-tests-end
