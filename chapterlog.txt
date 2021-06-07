@@ -6,3 +6,4 @@
 02-organizing-tests-end
 02-testing-asynchronous-code-start
 02-testing-asynchronous-code-end
+02-analyzing-test-coverage
