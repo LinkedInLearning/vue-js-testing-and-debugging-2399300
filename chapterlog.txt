@@ -7,3 +7,6 @@
 02-testing-asynchronous-code-start
 02-testing-asynchronous-code-end
 02-analyzing-test-coverage
+
+3/
+03-mounting-components-start
