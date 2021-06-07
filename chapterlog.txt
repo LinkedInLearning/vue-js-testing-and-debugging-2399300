@@ -14,3 +14,4 @@
 03-accessing-elements-start
 03-accessing-elements-end
 03-firing-events-start
+03-firing-events-end

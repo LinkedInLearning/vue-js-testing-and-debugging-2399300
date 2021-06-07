@@ -7,4 +7,10 @@ test('Render Home', async () => {
 
     getByText("Login to your account");
 
+    const loginButton = getByText('Login');
+
+    await fireEvent.click(loginButton);
+
+    getByText("Please enter your email and password");
+
 })
