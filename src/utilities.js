@@ -17,8 +17,17 @@ let johnDoe = {
     occupation: "Accountant"
 }
 
+function asyncPrint() {
+    return new Promise((resolve, reject) => {
+        setTimeout(()=> {
+            resolve("Hello World");
+        }, 2000)
+    })
+}
+
 module.exports = {
     addNumbers,
     countriesCollection,
-    johnDoe
+    johnDoe,
+    asyncPrint
 }

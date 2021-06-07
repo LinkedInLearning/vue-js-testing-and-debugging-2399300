@@ -4,3 +4,4 @@
 02-testing-arrays-and-objects-end
 02-organizing-tests-start
 02-organizing-tests-end
+02-testing-asynchronous-code-start
