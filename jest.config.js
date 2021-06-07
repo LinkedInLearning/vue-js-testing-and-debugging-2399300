@@ -9,6 +9,7 @@ module.exports =  {
         ".*\\.(js)$": "babel-jest",
         // process `*.vue` files with `vue-jest`
         ".*\\.(vue)$": "vue-jest"
-    }
+    },
+    "testEnvironment": "jsdom"
 }
   
