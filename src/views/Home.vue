@@ -71,7 +71,54 @@ export default {
   methods : {
     login(){
       if(this.email && this.password){
-        this.$router.push({path : "profile"})
+
+        let user = {
+            name: "John Doe",
+            email: "john@doe.com",
+            phone: "(239) 816-8855",
+            mobile: "(320) 380-2134",
+            address: "Bay Area, San Francisco, CA",
+            occupation: "Life-style Blogger",
+            tours : [
+                {
+                    title : "Los Angeles",
+                    value : 80
+                },
+                {
+                    title : "San Francisco",
+                    value : 72
+                },
+                {
+                    title : "San Diego",
+                    value : 89
+                },
+                {
+                    title : "San Bernardino",
+                    value : 55
+                },
+                {
+                    title : "Sacramento",
+                    value : 66
+                }
+            ],
+            breakdown: {
+                total : 15,
+                completed : 8,
+                pending : 5,
+                commute : "Bus"
+            },
+            socials : {
+                web: "https://johndoey.com",
+                twitter : "@johndoey",
+                instagram : "johndoey",
+                facebook : "johndoey"
+            }
+
+        }
+
+        this.$store.commit("setsUer", user);
+
+        this.$router.push({path : "profile"});
       }else{
         this.showError = true;
       }

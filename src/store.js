@@ -6,6 +6,15 @@ Vue.use(Vuex);
 
 export default new Vuex.Store({
     state: {
-
-    }
+        user : {
+            tours : {},
+            breakdown : [],
+            socials : {}
+        }
+    },
+    mutations : {
+        setUser(state, payload){
+            state.user = payload
+        }
+    }   
 });
