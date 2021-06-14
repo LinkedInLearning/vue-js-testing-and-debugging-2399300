@@ -21,3 +21,4 @@
 04-debugging-errors-chrome-end
 04-debugging-vue-tools-start
 04-debugging-state-start
+04-debugging-state-end

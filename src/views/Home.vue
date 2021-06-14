@@ -116,7 +116,7 @@ export default {
 
         }
 
-        this.$store.commit("setsUer", user);
+        this.$store.commit("setUser", user);
 
         this.$router.push({path : "profile"});
       }else{
