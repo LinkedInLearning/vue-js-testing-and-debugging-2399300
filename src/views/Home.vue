@@ -71,7 +71,7 @@ export default {
   methods : {
     login(){
       if(this.email && this.password){
-        this.$router.push({path : "profile"})
+        this.$ruter.push({path : "profile"})
       }else{
         this.showError = true;
       }

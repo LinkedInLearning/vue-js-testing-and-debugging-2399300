@@ -15,3 +15,6 @@
 03-accessing-elements-end
 03-firing-events-start
 03-firing-events-end
+
+4/
+04-debugging-errors-chrome
