@@ -22,4 +22,7 @@
 04-debugging-vue-tools-start
 04-debugging-state-start
 04-debugging-state-end
+
+5/
 05-simple-cypress-test
+05-automated-testing-circleci
