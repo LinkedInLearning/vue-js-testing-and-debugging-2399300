@@ -35,7 +35,8 @@
                           </div>
                           <button type="button" class="btn btn-primary login-button" @click="login()">
                             Login
-                          </div>
+                          </button>
+                          
                       </form>
                     </div>
                     
