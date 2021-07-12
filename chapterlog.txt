@@ -1,3 +1,4 @@
+02-installing-jest-start
 02-testing-numbers-start
 02-testing-numbers-end
 02-testing-arrays-and-objects-start
