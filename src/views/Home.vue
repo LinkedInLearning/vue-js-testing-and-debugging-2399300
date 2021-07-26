@@ -1,7 +1,11 @@
 <template>
   
       <div class="container">
-        
+        <!-- <div class="row">
+          <div class="col-md-12">
+            <img src="/logo.gif" />
+          </div>
+        </div> -->
         <div class="row">
             <div class="col-md-8" id="banner-section">
 
